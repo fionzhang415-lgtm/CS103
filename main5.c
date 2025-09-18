@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){   
-  char grade='B'
+  char grade='B';
   printf("Your grade is %c\n",grade);
   switch(grade){
 case 'A':
