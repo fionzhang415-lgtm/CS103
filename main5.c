@@ -3,7 +3,7 @@ int main(){
   char grade='B'
   printf("Your grade is %c\n",grade);
   switch(grade){
-case 'A'
+case 'A':
       printf("Excellent!\n");
       break;
 case 'B':
