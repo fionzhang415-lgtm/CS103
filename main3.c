@@ -1,7 +1,9 @@
 #include <stdio.h>
-    int main(){   
-    int i = 1;
-    i＝i++ << 2 + 3 << --i;
-    printf(" i =%d\n", i );
+
+int main()
+{
+    int j = 1;
+    j = j++ << 2 + 3 << --j;
+    printf(" i = %d\n", j );
     return 0;
-    }
+}
